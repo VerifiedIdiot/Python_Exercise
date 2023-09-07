@@ -28,17 +28,17 @@
 # kor, eng, mat = map(int, input("국어 영어 수학").split())
 # print(kor, eng, mat)
 
-# val = map(int, input("성적 입력 : ").split())
-# print(*val)
-# print(type(val))
+val = map(int, input("성적 입력 : ").split())
+print(*val)
+print(type(val))
 
 # hour, min, sec = input("시:분:초 :").split(":")
 # print(f"시간{hour} 분{min} 초{sec} 이다.")
 
 # 시간을 24시간제이며 : 기준으로 입력 받은 후 오전과 오후로 출력하도록 변경
-hour, min, sec = map(int, input("시간 입력 : ").split(":"))
-if hour > 12:
-    hour -= 12
-    print(f"오후{hour:02}시{min:02}분{sec:02}초")
-else:
-    print(f"오전{hour:02}시{min:02}분{sec:02}초")
+# hour, min, sec = map(int, input("시간 입력 : ").split(":"))
+# if hour > 12:
+#     hour -= 12
+#     print(f"오후{hour:02}시{min:02}분{sec:02}초")
+# else:
+#     print(f"오전{hour:02}시{min:02}분{sec:02}초")
