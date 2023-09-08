@@ -12,7 +12,7 @@ while True:
         print("숫자만 입력하세요.")
 
 while True:
-    gender = input("성별을 입력 : ")
+    gender = input("성별을 입력 :")
     if str == type(gender) and gender == "m" or gender == "M":
         break
     elif str == type(gender) and gender == "f" or gender == "F":
