@@ -32,5 +32,5 @@ class Developer(Student, Worker):
         print("개발자 입니다.")
 
 dev = Developer(1, 1, 1)
-dev.eat = 200
+dev.eat = "개"
 dev.set_eat()
